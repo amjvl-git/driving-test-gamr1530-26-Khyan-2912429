@@ -1,5 +1,3 @@
-input Message
-
+set message=value
 git add -A
-git commit -m ${Message}
-git push
+git commit -m %message%
